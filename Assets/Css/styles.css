@@ -467,7 +467,7 @@ form textarea{
 
 .contact-form form .btn {
     display: inline-block;
-    background: aquamarine;
+    background: aqua;
     font-size: 1.1rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -531,7 +531,7 @@ form textarea{
 .slider-wrapper i:hover {
     transition: 0.4s;
     border: 1px solid transparent;
-    background: aquamarine;
+    background: aqua;
 }
 
 .slider-wrapper i:first-child {
