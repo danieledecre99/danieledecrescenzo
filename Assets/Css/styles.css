@@ -578,7 +578,6 @@ form textarea{
 .slider-scrollbar .scrollbar-track {
     height: 4px;
     width: 100%;
-    background: white;
     position: relative;
     border-radius: 4px;
 }
@@ -591,7 +590,7 @@ form textarea{
     position: absolute;
     height: 100%;
     width: 50%;
-    background: aquamarine;
+    background: aqua;
     border-radius: inherit;
     cursor: grab;
 }
@@ -642,7 +641,7 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: aquamarine;
+    background: aqua;
     border-radius: 50%;
     margin: 22px 10px;
     color: white;
