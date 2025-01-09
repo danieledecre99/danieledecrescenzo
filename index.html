@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+<title>Daniele De Crescenzo - Designer</title>
+<meta name="title" content="Daniele De Crescenzo - Designer" />
+<meta name="description" content="Salve. Mi chiamo Daniele De Crescenzo e sono un grafico. Ho da poco deciso di iniziare il corso di UX/UI Design con Start2Impact. Ho deciso di iniziare il corso perché mi piace conoscere e imparare nuove cose, soprattutto se sono legate al mio percorso di studi, ovvero la grafica. Ho preso questa decisione di iniziare il corso perché adoro questo ramo della grafica e anche perché non voglio limitare le mie conoscenze solo al mio percorso di studi, ma voglio espanderle imparando nuove cose." />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://danieledecre99.github.io/danieledecrescenzo/index.html" />
+<meta property="og:title" content="Daniele De Crescenzo - Designer" />
+<meta property="og:description" content="Salve. Mi chiamo Daniele De Crescenzo e sono un grafico. Ho da poco deciso di iniziare il corso di UX/UI Design con Start2Impact. Ho deciso di iniziare il corso perché mi piace conoscere e imparare nuove cose, soprattutto se sono legate al mio percorso di studi, ovvero la grafica. Ho preso questa decisione di iniziare il corso perché adoro questo ramo della grafica e anche perché non voglio limitare le mie conoscenze solo al mio percorso di studi, ma voglio espanderle imparando nuove cose." />
+<meta property="og:image" content="https://danieledecre99.github.io/danieledecrescenzo/assets/images/Screenshot.png" />
+<meta property="og:image:secure_url" content="https://danieledecre99.github.io/danieledecrescenzo/assets/images/Screenshot.png"/>
+<meta property="og:image:type" content="image/png"/>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+   
+    <!------GOOGLE FONT------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;
+    0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <!-------ICONS--------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+ integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer"/>
+ <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <title>Daniele De Crescenzo - Designer</title>
+</head>
+<body>
+
+<!-------HEADER SECTION-------->
+ <header>
+     <a href="#home" class="logo">Daniele <span>De Crescenzo</span></a>
+     <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navlist">
+            <li><a href="about/about.html">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contatti</a></li>
+    </ul>
+</header>
+    
+<!-------HERO SECTION-------->
+ <section class="home" id="home">
+    <div class="hero-text">
+        <h3>Salve a tutti, sono</h3>
+        <h1>Daniele <span>De Crescenzo</span></h1>
+        <h4>UX/UI Design - Graphic Designer</h4>
+    </div>
+ </section>
+
+<!-------ABOUT SECTION-------->
+<section class="about" id="about">
+    <div class="about-text">
+        <h2>ABOUT ME</h2>
+
+        <p>Salve. Mi chiamo Daniele De Crescenzo e sono un grafico. Ho da poco deciso di 
+            iniziare il corso di UX/UI Design con Start2Impact. Ho deciso di iniziare il corso perché mi piace
+            conoscere e imparare nuove cose, soprattutto se sono legate al mio percorso di studi, ovvero la grafica. 
+            Ho preso questa decisione di iniziare il corso perché adoro questo ramo della grafica e anche perché non
+            voglio limitare le mie conoscenze solo al mio percorso di studi, ma voglio espanderle imparando nuove cose. Per altre
+            informazioni su di me e ciò che ho studiato puoi cliccare il pulsante qui sotto.</p>
+
+         <a href="about/about.html"><button type="button">Di più</button></a>
+    </div>
+</section>
+
+<!-------PORTFOLIO SECTION-------->
+<section class="portfolio" id="portfolio">
+    <div class="title">
+        <h2>My Portfolio</h2> 
+  </div>
+  <div class="box">
+      <a href="project/project1.html">
+      <div class="card">
+          <img src="assets/images/Progetto-Grafica-UX-UI.jpg" alt="img">
+          <h5>MEDITACTIVE</h5>
+          <div class="pra">
+              <p>Questo è il mio primo progetto creato con Start2Impact</p>
+          </div>
+      </div>
+  </a>
+  </div>
+</section>
+
+
+<!-------CONTACT SECTION-------->
+
+<section class="contact" id="contact">
+    <div class="contact-form" id="contact-form">
+       <h2>SE VUOI <span>CONTATTARMI</span></h2>
+       <p>Per qualsiasi informazione, puoi contattarmi compilando questo form.</p>
+       <form action="">
+
+            <input type="text" id="yourName" placeholder="Your Name" required>
+            <input type="email" name="email" id="email_id" placeholder="Your E-mail" required>
+      
+        <textarea id="message" placeholder="Your Message"></textarea>
+        
+
+        <input onclick="SendMail()" type="submit" name="" value="Submit" class="btn" id="btn">
+       </form>
+    </div>
+  </section>
+
+<!-------FOOTER SECTION-------->
+
+<footer>
+    <p>Daniele De Crescenzo</p>
+    <div class="social">
+        <a href="https://www.facebook.com/daniele.decre?locale=it_IT"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/decredaniel/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCsk-ET36Gmct8CFLXXIgCkw"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://github.com/danieledecre99"><i class="fa-brands fa-github"></i></a>
+    </div>
+   </footer>
+</body>
+
+<!--------SCROLL REVEAL--------->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<!--------CUSTOM JS FILE LINK--------->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
