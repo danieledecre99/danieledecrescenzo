@@ -104,7 +104,7 @@ function SendMail() {
 
     (function() {
         // https://dashboard.emailjs.com/admin/account
-        emailjs.init("QD9RiILGpsKLK4CTH");
+        emailjs.init("whq-QrWdL5QVlPrWb");
     })();
     
     // Ottieni i valori dei campi
